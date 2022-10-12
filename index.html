@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form for coach</title>
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body >
+  <form class="form1" data-page="form2" data-form>
+  <section class="form-form">
+    <header>
+      <h2 class="h2 article-title">The result of the last training session</h2>
+    </header>
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+  </div>
+  <div class="input-wrapper1">
+    <input type="number" name="metters" class="form-input" placeholder="Metters" required data-form-input>
+    <input type="number" name="spm" class="form-input" placeholder="SPM" required data-form-input>
+  </div>
+  <div class="input-wrapper2">
+    <input type="datetime" name="/500m" class="form-input" placeholder="/500m" required data-form-input>
+  </div>
+  <div class="input-wrapper3">
+    <input type="number" name="cal/hr" class="form-input" placeholder="Cal/hr" required data-form-input>
+    <input type="number" name="watt" class="form-input" placeholder="Watt" required data-form-input>
+  </div>
+    <button class="form-btn" type="submit" disabled data-form-btn>
+    <span>Send Message</span>
+    </button>
+  </form>
+  <script src="index.js"></script>
+</body>
+
+</html>
